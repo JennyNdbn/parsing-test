@@ -1,5 +1,6 @@
 package guru.qa;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import com.codeborne.pdftest.PDF;
 import com.codeborne.xlstest.XLS;
@@ -17,6 +18,7 @@ public class ZipParsingTest {
     ClassLoader cl = ZipParsingTest.class.getClassLoader();
 
     @Test
+    @DisplayName("Парсинг Zip-архива")
     void zipParseTest() throws Exception {
         try (
                 InputStream resource = cl.getResourceAsStream("Test.zip")
