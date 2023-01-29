@@ -1,0 +1,10 @@
+{
+  "firstName": "Evgeniia",
+  "lastName": "Nadobnaia",
+  "email": "NadobnayaEA@yandex.ru",
+  "gender": "Female",
+  "age": 28,
+  "occupation": "Engineer",
+  "languages": ["Russian", "English", "Spanish"],
+  "hobbies": ["Singing", "Painting", "Gardening"]
+}

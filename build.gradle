@@ -7,6 +7,7 @@ repositories {
 }
 
 dependencies {
+    implementation 'com.fasterxml:jackson-xml-databind:0.6.2'
     testImplementation (
             "com.codeborne:selenide:6.11.0",
             "org.junit.jupiter:junit-jupiter:5.9.2",
@@ -16,7 +17,7 @@ dependencies {
             'com.codeborne:xls-test:1.4.3',
             'com.opencsv:opencsv:5.7.1',
             'com.google.code.gson:gson:2.10',
-            'com.fasterxml.jackson.core:jackson-core:2.13.1')
+            'com.fasterxml.jackson.core:jackson-databind:2.14.1')
 }
 
 tasks.withType(JavaCompile) {
